@@ -17,6 +17,7 @@
 
 .WelcomeHeading {
     @apply
+    mb-8
     text-3xl
     font-bold;
 }
@@ -24,25 +25,24 @@
 .WelcomeSubHeading {
     @apply
     text-xl
-    my-4
     opacity-80;
 }
 
 .WelcomeImgCont {
     @apply
+    my-4
     w-10/12
     max-w-2xl
     flex
     items-center
-    justify-around
-    mt-6;
+    justify-around;
 }
 
 .WelcomeLink {
     @apply
+    mt-4
     font-bold
     flex
-    mt-4
     px-4
     py-2
     rounded-full

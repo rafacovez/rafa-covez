@@ -5,17 +5,18 @@
     text-center
     pt-12
     pb-6
-    bg-gray-100
-    opacity-80;
+    bg-gray-100;
 }
 
 .FooterText {
     @apply
-    mx-1;
+    mx-1
+    opacity-80;
 }
 
 .FooterLink {
     @apply
+    text-indigo-500
     mx-1
     underline;
 }
@@ -28,5 +29,6 @@
 
 .FooterTimeActive {
     @apply
-    mt-4;
+    mt-4
+    opacity-80;
 }
