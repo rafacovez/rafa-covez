@@ -1,0 +1,102 @@
+.PostCardHeader {
+    @apply
+    flex
+    justify-between
+    items-baseline
+    border-solid
+    border-b-2
+    border-gray-200
+    my-4
+    py-4;
+}
+
+.PostCardHeaderHeading {
+    @apply
+    text-2xl
+    font-bold;
+}
+
+.PostCardHeaderLink {
+    @apply
+    underline;
+}
+
+.PostCardHeaderLink:hover {
+    @apply
+    no-underline;
+}
+
+.PostCardCont {
+    @apply
+    my-4
+    py-4
+    grid
+    grid-cols-1
+    gap-6;
+}
+
+.PostCard {
+    @apply
+    w-full
+    px-5
+    py-8
+    text-center
+    rounded-xl
+    shadow-xl
+    bg-gray-100;
+}
+
+.PostCardImg {
+    @apply
+    rounded;
+}
+
+.PostCardAbout {
+    @apply
+    my-4;
+}
+
+.PostCardTitle {
+    @apply
+    font-bold
+    text-lg;
+}
+
+.PostCardDescrip {
+    @apply
+    text-sm
+    my-2;
+}
+
+.PostCardBtn {
+    @apply
+    block
+    mt-5
+    w-fit
+    mx-auto
+    px-5
+    py-2
+    bg-indigo-500
+    transition-all
+    rounded-full
+    text-white;
+}
+
+.PostCardBtn:hover {
+    @apply
+    shadow-xl
+    bg-indigo-600;
+}
+
+.PostCardBtnEmoji {
+    @apply
+    ml-1;
+}
+
+@media (min-width: 768px) {
+    .PostCardCont {
+        @apply
+        gap-12
+        grid-cols-2;
+    }
+}

@@ -1,0 +1,32 @@
+.Footer {
+    @apply
+    grid
+    place-items-center
+    text-center
+    pt-12
+    pb-6
+    bg-gray-100
+    opacity-80;
+}
+
+.FooterText {
+    @apply
+    mx-1;
+}
+
+.FooterLink {
+    @apply
+    mx-1
+    underline;
+}
+
+.FooterLink:hover {
+    @apply
+    mx-1
+    no-underline;
+}
+
+.FooterTimeActive {
+    @apply
+    mt-4;
+}

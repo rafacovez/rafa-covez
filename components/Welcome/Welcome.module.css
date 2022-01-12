@@ -1,0 +1,68 @@
+.Welcome {
+    @apply
+    w-full
+    bg-indigo-900;
+}
+
+.WelcomeCont {
+    @apply
+    w-10/12
+    mx-auto
+    grid
+    place-items-center
+    text-center
+    py-12
+    text-white;
+}
+
+.WelcomeHeading {
+    @apply
+    text-3xl
+    font-bold;
+}
+
+.WelcomeSubHeading {
+    @apply
+    text-xl
+    my-4
+    opacity-80;
+}
+
+.WelcomeImgCont {
+    @apply
+    w-10/12
+    max-w-2xl
+    flex
+    items-center
+    justify-around
+    mt-6;
+}
+
+.WelcomeLink {
+    @apply
+    font-bold
+    flex
+    mt-4
+    px-4
+    py-2
+    rounded-full
+    bg-indigo-500
+    border-solid
+    border-2
+    border-indigo-500
+    transition-all;
+}
+
+.WelcomeLink:hover {
+    @apply
+    bg-white
+    text-indigo-500
+    shadow-xl;
+}
+
+.WelcomeEmoji {
+    @apply
+    block
+    animate-bounce
+    ml-2;
+}

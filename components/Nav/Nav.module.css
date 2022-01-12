@@ -1,0 +1,38 @@
+.Nav {
+    @apply
+    my-12
+    mx-0
+    grid
+    grid-cols-1
+    h-fit
+}
+
+.NavLinkWrapper {
+    @apply
+    my-2;
+}
+
+.NavLinkEmoji {
+    @apply
+    mr-1;
+}
+
+.NavLink {
+    @apply
+    font-bold
+    underline;
+}
+
+.NavLink:hover {
+    @apply
+    no-underline;
+}
+
+@media (min-width: 768px) {
+    .Nav {
+        @apply 
+        py-6
+        sticky
+        top-0;
+    }
+}
