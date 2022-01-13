@@ -1,0 +1,91 @@
+.ProjectsHeader {
+    @apply
+    flex
+    items-baseline
+    border-solid
+    border-b-2
+    border-gray-200
+    my-4
+    py-4;
+}
+
+.ProjectsHeaderHeading {
+    @apply
+    text-lg
+    font-bold;
+}
+
+.ProjectsCardCont {
+    @apply
+    my-4
+    py-4
+    grid
+    grid-cols-1
+    gap-6;
+}
+
+.ProjectsCard {
+    @apply
+    w-full
+    px-5
+    py-8
+    text-center
+    rounded-xl
+    shadow-xl
+    bg-gray-100;
+}
+
+.ProjectsCardImg {
+    @apply
+    rounded;
+}
+
+.ProjectsCardAbout {
+    @apply
+    my-4;
+}
+
+.ProjectsCardTitle {
+    @apply
+    font-bold
+    text-lg;
+}
+
+.ProjectsCardDescrip {
+    @apply
+    text-sm
+    my-2;
+}
+
+.ProjectsCardBtn {
+    @apply
+    block
+    mt-5
+    w-fit
+    mx-auto
+    px-5
+    py-2
+    bg-indigo-500
+    transition-all
+    rounded-full
+    text-white;
+}
+
+.ProjectsCardBtn:hover {
+    @apply
+    shadow-xl
+    bg-indigo-600;
+}
+
+.ProjectsCardBtnEmoji {
+    @apply
+    ml-1;
+}
+
+@media (min-width: 768px) {
+    .ProjectsCardCont {
+        @apply
+        gap-12
+        grid-cols-2;
+    }
+}

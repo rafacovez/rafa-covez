@@ -36,8 +36,8 @@ export default function Nav() {
             </div>
             <div className={styles.NavLinkWrapper}>
                 <Emoji symbol="📚" label="books"/>
-                <Link href="/books-track">
-                    <a className={styles.NavLink}>Books Track</a>
+                <Link href="/https://github.com/rafdidact/what-I-read">
+                    <a target="_blank" className={styles.NavLink}>Books Track</a>
                 </Link>
             </div>
             <div className={styles.NavLinkWrapper}>
