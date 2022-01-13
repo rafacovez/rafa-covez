@@ -17,7 +17,7 @@ export default function Header() {
     return (
         <header className={styles.Header}>
             <div className={styles.HeaderCont}>
-                <Link href="/">
+                <Link passHref href="/">
                     <h2 className={styles.HeaderHeading}>Rafa Cóvez<Emoji symbol="✏️" label="pencil"/></h2>
                 </Link>
                 <span className={styles.HeaderDescrip}>My mind&apos;s digital home.</span>

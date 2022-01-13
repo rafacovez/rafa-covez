@@ -42,7 +42,7 @@ export default function Nav() {
             </div>
             <div className={styles.NavLinkWrapper}>
                 <Emoji symbol="🍅" label="tomato"/>
-                <Link href="https://sicko-mode-pomodoro.vercel.app">
+                <Link pass href="https://sicko-mode-pomodoro.vercel.app">
                     <a className={styles.NavLink}>Pomodoro</a>
                 </Link>
             </div>
