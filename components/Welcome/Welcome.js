@@ -36,8 +36,8 @@ export default function Welcome() {
                     <br/>
                     used right now.
                     </h3>
-                <Link href="/">
-                    <a className={styles.WelcomeLink}>Learn now <Emoji symbol="🚀" label="rocket"/></a>
+                <Link href="/course">
+                    <a className={styles.WelcomeLink}>Coming soon... <Emoji symbol="🚀" label="rocket"/></a>
                 </Link>
             </div>
         </section>

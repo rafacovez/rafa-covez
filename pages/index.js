@@ -17,7 +17,7 @@ export default function Home({posts}) {
       <section className={styles.PostCardWrapper}>
         <header className={styles.PostCardHeader}>
           <h3 className={styles.PostCardHeaderHeading}>This year&apos;s essays ↓</h3>
-          <Link href="/">
+          <Link href="/essays/archive">
             <a className={styles.PostCardHeaderLink}>See archive</a>
           </Link>
         </header>

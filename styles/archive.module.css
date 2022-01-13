@@ -1,0 +1,32 @@
+.ArchiveHeader {
+    @apply
+    flex
+    items-baseline
+    border-solid
+    border-b-2
+    border-gray-200
+    my-4
+    py-4;
+}
+
+.ArchiveHeaderHeading {
+    @apply
+    text-lg
+    font-bold;
+}
+
+.ArchiveEssayLink {
+    @apply
+    underline
+    mx-2;
+}
+
+.ArchiveEssayLink:hover {
+    @apply
+    no-underline;
+}
+
+.ArchiveEssayDate {
+    @apply
+    opacity-50;
+}

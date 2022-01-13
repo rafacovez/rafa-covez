@@ -1,0 +1,53 @@
+.AboutHeader {
+    @apply
+    flex
+    items-baseline
+    border-solid
+    border-b-2
+    border-gray-200
+    my-4
+    py-4;
+}
+
+.AboutHeaderHeading {
+    @apply
+    text-lg
+    font-bold;
+}
+
+.AboutTextWrapper {
+    @apply
+    my-4;
+}
+
+.AboutTextWrapper > p {
+    @apply
+    my-4;
+}
+
+.AboutFooter {
+    @apply
+    flex
+    py-5
+    border-solid
+    border-t-2
+    border-gray-200
+    font-bold
+    opacity-80;
+}
+
+.AboutFooterEmoji {
+    @apply
+    mx-1;
+}
+
+.AboutFooterLink {
+    @apply
+    mx-1
+    underline;
+}
+
+.AboutFooterLink:hover {
+    @apply
+    no-underline;
+}

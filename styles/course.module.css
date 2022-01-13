@@ -1,0 +1,22 @@
+.CourseHeader {
+    @apply
+    flex
+    items-baseline
+    border-solid
+    border-b-2
+    border-gray-200
+    my-4
+    py-4;
+}
+
+.CourseHeaderHeading {
+    @apply
+    text-lg
+    font-bold;
+}
+
+.CourseHeaderHeadingEmoji {
+    @apply
+    ml-2
+    animate-pulse;
+}
