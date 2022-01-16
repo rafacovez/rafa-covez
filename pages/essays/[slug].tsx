@@ -3,7 +3,7 @@ import path from "path"
 import matter from "gray-matter"
 import { marked } from "marked"
 import Image from "next/image"
-import styles from "./[slug].module.css"
+import styles from "../../styles/[slug].module.css"
 import Link from "next/link"
 import Head from "next/head"
 

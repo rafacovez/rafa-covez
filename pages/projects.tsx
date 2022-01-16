@@ -2,7 +2,7 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 import styles from "../styles/projects.module.css"
-import Pomodoro from "../public/images/sicko-mode-pomodoro-preview.png"
+import Pomodoro from "../images/sicko-mode-pomodoro-preview.png"
 
 export default function Projects() {
     const Emoji = (props) => {

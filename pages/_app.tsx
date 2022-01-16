@@ -1,7 +1,7 @@
-import Header from '../components/Header/Header.js'
-import Welcome from '../components/Welcome/Welcome.js'
-import Nav from '../components/Nav/Nav.js'
-import Footer from '../components/Footer/Footer.js'
+import Header from '../components/Header'
+import Welcome from '../components/Welcome'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

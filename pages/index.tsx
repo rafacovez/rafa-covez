@@ -2,8 +2,8 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import Head from "next/head"
-import Post from "../components/Post/Post"
-import styles from "../components/Post/Post.module.css"
+import Post from "../components/Post"
+import styles from "../styles/Post.module.css"
 import Link from "next/link"
 
 export default function Home({posts}) {

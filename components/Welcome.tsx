@@ -1,11 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
-import styles from "./Welcome.module.css"
-import python from "../../public/images/python.png"
-import npm from "../../public/images/npm.png"
-import react from "../../public/images/react.png"
-import vercel from "../../public/images/vercel.png"
-import mongodb from "../../public/images/mongodb.png"
+import styles from "../styles/Welcome.module.css"
+import python from "../images/python.png"
+import npm from "../images/npm.png"
+import react from "../images/react.png"
+import vercel from "../images/vercel.png"
+import mongodb from "../images/mongodb.png"
 
 export default function Welcome() {
     const Emoji = (props) => {
