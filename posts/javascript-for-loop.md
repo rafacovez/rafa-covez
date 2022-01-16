@@ -2,7 +2,7 @@
 title: "Javascript For Loop"
 description: "The piece of code that got me into programming"
 date: "October 18, 2021"
-cover_image: "/images/posts/for-loop.jpg"
+cover_image: "https://raw.githubusercontent.com/rafdidact/rafa-covez/main/images/posts/for-loop.jpg"
 ---
 
 A JavaScript for loop is a method to build a loop in the programming language of JavaScript. This method is the more conventional one. In my opinion, using this method in a practical way is a good exercise for someone who’s starting to learn about programming algorithms. I think this because it makes you grasp the concept of what really is a programming algorithm by showing you start to finish how a simple one works and what you need to tell the computer to do in order to get a specific task done.
