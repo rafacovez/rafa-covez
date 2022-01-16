@@ -40,12 +40,12 @@
 
 .WelcomeLink {
     @apply
-    mt-4
-    font-bold
     flex
     px-4
     py-2
-    rounded-full
+    m-4
+    font-bold
+    rounded-xl
     bg-indigo-500
     border-solid
     border-2
@@ -55,9 +55,9 @@
 
 .WelcomeLink:hover {
     @apply
+    shadow-xl
     bg-white
-    text-indigo-500
-    shadow-xl;
+    text-indigo-500;
 }
 
 .WelcomeEmoji {
