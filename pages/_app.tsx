@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="My mind's digital home."/>
         <meta name="keywords" content="blog, webdevelopment, nextjs"/>
         <meta name="author" content="Rafa"/>
-        <link rel="icon" href="/public/favicon.ico" />
       </Head>
       <Header/>
       <Welcome/>

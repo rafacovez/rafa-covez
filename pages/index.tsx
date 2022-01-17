@@ -11,6 +11,7 @@ export default function Home({posts}) {
     <div className="Home">
       <Head>
         <title>Rafa Cóvez</title>
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
       <section className={styles.PostCardWrapper}>
         <header className={styles.PostCardHeader}>
