@@ -5,17 +5,17 @@ import Footer from '../components/Footer'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return(
+  return (
     <>
-      <Header/>
-      <Welcome/>
+      <Header />
+      <Welcome />
       <div className="NavAndMainWrapper">
-        <Nav/>
+        <Nav />
         <main className="MainContainer">
           <Component {...pageProps} />
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

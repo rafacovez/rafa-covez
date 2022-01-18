@@ -4,42 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .blue {
-    background-color: blue;
-  }
-
-  .red {
-    background-color: red;
-  }
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   line-height: 1.8;
 }
 
 .NavAndMainWrapper {
-  @apply
-  my-12
+  @apply my-12
   mx-auto
   w-10/12;
 }
 
 @media (min-width: 768px) {
   .NavAndMainWrapper {
-    @apply
-    w-8/12
+    @apply w-8/12
     max-w-3xl
     grid
     grid-cols-3
@@ -47,7 +25,6 @@ body {
   }
 
   .MainContainer {
-    @apply
-    col-span-2;
+    @apply col-span-2;
   }
 }
